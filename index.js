@@ -70,6 +70,7 @@ const nearestCustomers = (customers, callback) => {
 	callback(null, result);
 };
 
+
 function main() {
 	async.waterfall([
 		function(callback) {
@@ -92,6 +93,10 @@ function main() {
 			})
 		}
 	});
-}
+};
 
 main();
+
+module.exports = {
+    readData
+};
