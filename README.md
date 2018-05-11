@@ -1,4 +1,10 @@
 ## Steps to run
+
+* Clone this repository.
+
+```bash
+$ git clone https://github.com/sharathvignesh/laughing-eureka.git
+```
 * Install npm dependencies.
 
 ```bash
